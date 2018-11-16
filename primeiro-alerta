@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Alerta</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+        <h1 class="h1-principal">Bom dia, xxxx (Gestor)</h1>
+		<p>O funcionário(a) abaixo terá sua 1ª fase do contrato de experiência expirada em xxxxxx (data do vencimento 1ª fase), conforme tabela abaixo:
+		</p>
+        <div class="container">
+            <form>
+                <fieldset>
+                        <label class="com-icone" for="nome">Nome Colaborador:</label>
+                        <input id="nome" type="text" name="nome">
+                        <label class="empresa" for="empresa">Empresa/Filial:</label>
+                        <input id="empresa" type="text" name="nome-empresa">
+                        <label class="com-icone" for="cargo">Cargo:</label>
+                        <input class="cargo" type="text" name="cargo">
+                        <label class="data-admissao" type="text" name="data-admissao">Data de Admissão:</label>
+                        <input type="text" size="10" maxlength="10">
+                        <label class="vencimento-contrato" type="text" name="vencimento-contrato">Vcto. contrato 45dd:</label>
+                        <input type="text" size="10" maxlength="10">
+                        <button type="submit">Enviar</button>
+                </fieldset>
+                <p>Por gentileza, caso deseje encerrar o contrato de trabalho, dentro do prazo, informar ao RH impreterivelmente até o dia xxxxxxx (contar dois dias do envio do e-mail, esse é o prazo para o GP responder)  para que os documentos de rescisão e pagamento sejam providenciados.</p>
+                <p>Caso não sejamos informados, o contrato será renovado por mais 45 dias - entraremos em contato antes do prazo para validarmos se o colaborador permanece ou se haverá reincidência.</p>
+                <p>Desde já agradecemos a colaboração.</p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
