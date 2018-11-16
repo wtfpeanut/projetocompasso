@@ -15,8 +15,8 @@
             <form>
                 <fieldset>
                     <legend>Kairos</legend>
-                    <label class="com-icone" for="email">Login</label>
-                    <input id="email" type="email" name="email" placeholder="seu@email.com">
+                    <label class="com-icone" for="login">Login</label>
+                    <input id="login" type="login" name="login">
                     <label class="com-icone" for="password">Senha</label required>
                     <input type="password" name="senha" size="10">
                     <button type="submit">Login</button>
@@ -24,7 +24,7 @@
                 <fieldset>
                     <legend>Intranet</legend>
                     <label class="com-icone" for="email">Login</label>
-                    <input id="email" type="email" name="email" placeholder="seu@email.com">
+                    <input id="login" type="login" name="login">
                     <label class="com-icone" for="password">Senha</label required>
                     <input type="password" name="senha" size="10">
                     <button type="submit">Login</button>
@@ -32,7 +32,7 @@
                 <fieldset>
                     <legend>Email</legend>
                     <label class="com-icone" for="email">Login</label>
-                    <input id="email" type="email" name="email" placeholder="seu@email.com">
+                    <input id="login" type="login" name="login">
                     <label class="com-icone" for="password">Senha</label required>
                     <input type="password" name="senha" size="10">
                     <button type="submit">Login</button>
