@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Acesso</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+        <h1 class="h1-principal">Boa tarde, xxxxxxx (Gestor)</h1>
+		<p>Já estão disponíveis os acessos do novo(a) colaborador(a) xxxxxxxxxx (nome do profissional) que iniciará as suas atividades, na Compasso, em xxxxx (data da admissão)
+		</p>
+        <div class="container">
+            <form>
+                <fieldset>
+                    <legend>Kairos</legend>
+                    <label class="com-icone" for="email">Login</label>
+                    <input id="email" type="email" name="email" placeholder="seu@email.com">
+                    <label class="com-icone" for="password">Senha</label required>
+                    <input type="password" name="senha" size="10">
+                    <button type="submit">Login</button>
+                </fieldset>
+                <fieldset>
+                    <legend>Intranet</legend>
+                    <label class="com-icone" for="email">Login</label>
+                    <input id="email" type="email" name="email" placeholder="seu@email.com">
+                    <label class="com-icone" for="password">Senha</label required>
+                    <input type="password" name="senha" size="10">
+                    <button type="submit">Login</button>
+                </fieldset>
+                <fieldset>
+                    <legend>Email</legend>
+                    <label class="com-icone" for="email">Login</label>
+                    <input id="email" type="email" name="email" placeholder="seu@email.com">
+                    <label class="com-icone" for="password">Senha</label required>
+                    <input type="password" name="senha" size="10">
+                    <button type="submit">Login</button>
+                </fieldset>
+                <p>Recomendamos, que no primeiro acesso, sejam realizadas as trocas das senhas</p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
